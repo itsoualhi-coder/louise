@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-bg: #f7f7f7;
+  --color-text-main: #1c1917;
+  --color-accent: #e11d48;
+  --color-warm-cream: #FAFAF9;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+  --font-serif: var(--font-playfair), ui-serif, Georgia;
+}
+
+body {
+  background-color: var(--color-primary-bg);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: white;
+}
